@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mouse events</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: skyblue;
+            margin-left: 20px;
+    
+
+        }
+
+        .image {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+
+
+
+        <audio id="audio1" src="peakok.mp3"></audio>
+        <audio id="audio2" src="parrat.mp3"></audio>
+        <audio id="audio3" src="koyal.mp3"></audio>
+        <audio id="audio4" src="chakli.mp3"></audio>
+
+        <audio id="audio5" src="cardinal.mp3"></audio>
+        <audio id="audio6" src="bulbul.mp3"></audio>
+        <audio id="audio7" src="budgies.mp3"></audio>
+        <audio id="audio8" src="crow.mp3"></audio>
+
+
+
+        <div class="image">
+            <div>
+
+                <img src="peckok.png" width="20%" height="300px" onclick="playone()">
+                <img src="perrot.png" width="20%" height="300px" onclick="playtwo()">
+                <img src="koyal.png" width="20%" height="300px" onclick="playthree()">
+                <img src="chakli1.png" width="20%" height="300px" onclick="playfour()">
+
+            </div>
+                
+            <br><br>
+
+            <div>
+
+                <img src="cardinal.png" width="20%" height="300px" onclick="playfive()">
+                <img src="bulbul.png" width="20%" height="300px" onclick="playsix()">
+                <img src="budgies1.png" width="20%" height="300px" onclick="playseven()">
+                <img src="crow.png" width="20%" height="300px" onclick="playeight()">
+
+
+            </div>
+
+        </div>
+
+
+
+        <script>
+            function playone() {
+                document.getElementById("audio1").play();
+
+            }
+            function playtwo() {
+                document.getElementById("audio2").play();
+
+            }
+            function playthree() {
+                document.getElementById("audio3").play();
+
+            }
+
+            function playfour() {
+                document.getElementById("audio4").play();
+
+            }
+
+            function playfive() {
+                document.getElementById("audio5").play();
+
+            }
+
+            function playsix() {
+                document.getElementById("audio6").play();
+
+            }
+
+            function playseven() {
+                document.getElementById("audio7").play();
+
+            }
+
+            function playeight() {
+                document.getElementById("audio8").play();
+
+            }
+
+        </script>
+
+    </div>
+</body>
+
+
+</html>
